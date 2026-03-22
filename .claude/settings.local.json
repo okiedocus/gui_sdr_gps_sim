@@ -32,7 +32,9 @@
       "Bash(curl -s https://www.gnu.org/licenses/gpl-3.0.txt -o LICENSE)",
       "Bash(wc -l src/sat_if_signal.rs src/prngenerate.rs src/memory_code*.rs)",
       "Bash(grep -n \"fn.*parse.*rinex\\\\|fn.*read.*rinex\\\\|fn.*load.*rinex\" src/*.rs -i)",
-      "Bash(grep -v \"//!\")"
+      "Bash(grep -v \"//!\")",
+      "Bash(curl -s --max-time 30 \"https://www.reddit.com/search.json?q=SDR+HackRF+GPS+simulation&type=sr&limit=25\")",
+      "WebFetch(domain:subredditstats.com)"
     ]
   }
 }
